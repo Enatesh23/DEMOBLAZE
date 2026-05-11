@@ -18,5 +18,6 @@ public class TestRunner extends Base_Class {
         PageObjectManager.getPageObjectManager().getCheckOutPage().checkOut();
         screenshort(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty("screenshot"));
         PageObjectManager.getPageObjectManager().getAddressPage().addressPage();
+        System.out.println(20);
     }
 }
