@@ -20,5 +20,6 @@ public class TestRunner extends Base_Class {
         PageObjectManager.getPageObjectManager().getAddressPage().addressPage();
         System.out.println(20);
         System.out.println("20"+"tester1");
+        System.out.println(20+"tester2");
     }
 }
